@@ -9,6 +9,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="考研打卡">
 <title>2028考研打卡 · 深大085405</title>
+<link rel="manifest" href="manifest.json">
 <style>
   :root{
     --bg:#f5f7fa;--card:#fff;--text:#1f2937;--muted:#8b95a5;--line:#e8edf3;
@@ -1960,6 +1961,11 @@ document.getElementById('resetBtn').addEventListener('click', () => {
 renderSettings();
 updateSettingsVisibility();
 renderAll();
+</script>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+  }
 </script>
 </body>
 </html>
