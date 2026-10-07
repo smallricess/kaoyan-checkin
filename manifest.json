@@ -1,0 +1,13 @@
+{
+  "name": "考研打卡",
+  "short_name": "考研打卡",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f7fa",
+  "theme_color": "#2b3f6b",
+  "icons": [{
+    "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9Ijk2IiBmaWxsPSIjMmIzZjZiIi8+PHRleHQgeD0iMjU2IiB5PSIzMDAiIGZvbnQtc2l6ZT0iMjQwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjZmZmIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSxzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iNzAwIj7ogIM8L3RleHQ+PC9zdmc+",
+    "sizes": "512x512",
+    "type": "image/svg+xml"
+  }]
+}
